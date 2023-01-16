@@ -175,10 +175,10 @@ body { position: absolute; }
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--light-text-color);
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
-.comingsoon h1 {
+/* .comingsoon h1 {
     font-size: 3em;
 }
 
@@ -187,16 +187,16 @@ body {
     margin: auto;
     top: 0;
     /* background: white; */
-    text-align: center;
+    /* text-align: center;
     right: 0;
     bottom: 0;
     left: 0;
     /* width: 40em; */
-    height: 10em;
+    /* height: 10em;
     animation: opac 0.1s ease-in-out 5;
-}
+/* } */ 
 
-.comingsoon a {
+/* .comingsoon a {
     color: #444;
     font-weight: bold;
     text-decoration: none;
@@ -206,7 +206,7 @@ body {
 .comingsoon a:hover {
     color: blue;
     font-size: 1.5em;
-}
+} */ 
 
 .social-icons a {
     color: var(--light-text-color);
@@ -731,6 +731,8 @@ li span:hover:after {
 
 @media only screen and (max-width: 768px) {
 
+    
+
     /* For mobile phones: */
     .nav-items {
         width: 0;
@@ -755,6 +757,7 @@ li span:hover:after {
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
+        overflow-x: scroll;
     }
 
     #left-hero {
@@ -882,3 +885,6 @@ li span:hover:after {
     background: #555;
 
 }
+
+
+
