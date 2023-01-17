@@ -1,10 +1,11 @@
-## Portfolio [Progressive Web App]
-#### A clean, beautiful and fully responsive progressive web app based portfolio template for Developers! 
-##### Optimized For Github Pages
+## JuanJ4 | DevOps Engineer | DevSecOps Engineer
+#### DevOps Engineer | DevSecOps Engineer Portfolio
+##### 
 
-<img src="juanJ4.png">
+![juanj4 devops | devsecops](https://user-images.githubusercontent.com/23548321/212783807-4a198948-1111-4afd-be53-cae3a287ea00.png)
 
-<pre>P.S. This project is still in development phase.</pre>
+
+<pre>P.S. This project is actively worked on</pre>
 <pre><a href="https://juanj4.github.io/">VIEW LIVE DEMO</a></pre>
 
 ### TECHNOLOGIES USED
@@ -15,8 +16,6 @@
 * FONT AWESOME 5
 
 
-### Just a sidenote ✉
-I value keeping this site open source, but as you all know, plagiarism is bad. I spent a non-negligible amount of effort developing, designing, and trying to perfect this iteration of my website, and I am proud of it! All I ask is to not claim this effort as your own.
+### Thank you for viewing
 
-So, feel free to fork this repo. If you do, please just give me proper credit by linking back to my website.
 
