@@ -13,7 +13,6 @@
 * CSS
 * JAVASCRIPT
 * BOOTSTRAP
-* FONT AWESOME 5
 
 
 ### Thank you for viewing
