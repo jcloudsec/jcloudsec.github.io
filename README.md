@@ -6,11 +6,6 @@
 <pre>P.S. This project is actively worked on</pre>
 <pre><a href="https://juanj4.github.io/">VIEW LIVE DEMO</a></pre>
 
-### TECHNOLOGIES USED
-* HTML5
-* CSS
-* JAVASCRIPT
-* BOOTSTRAP
 
 
 ### Thank you for viewing
