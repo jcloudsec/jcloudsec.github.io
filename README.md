@@ -8,6 +8,3 @@
 
 
 
-### Thank you for viewing
-
-
