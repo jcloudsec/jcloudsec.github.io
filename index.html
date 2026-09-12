@@ -1,136 +1,672 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159411627-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    <!-- =====================================================
+         BASIC META
+         ===================================================== -->
 
-        gtag('config', 'UA-159411627-1');
-    </script> -->
-    <!-- Caching Disabler-->
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta http-equiv="Expires" content="-1">
-        <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
-    
-    
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <meta name="Description"
-        content="Juan Jimenez | DevOps Engineer, https://juanj4.github.io/ | Azure | CI/CD | Terraform | AWS | Python | AZ-900" />
-    <title>Juan Jimenez | DevOps Engineer</title>
-    <link rel="icon" type="image/png" href="assets/img/devops.png">
-    <link rel="apple-touch-icon" href="assets/img/devops.png">
-    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
-    <meta name="theme-color" content="#FFE1C4">
-    <script src="assets/js/app.js"></script>
-    <link rel="manifest" href="manifest.json">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Juan Jimenez | Application Security, AI Security, DevSecOps, Cloud Security, API Security, LLM Security, MCP Security, and AI Red Teaming.">
+
+    <meta name="keywords"
+          content="Juan Jimenez, Application Security, AI Security, AI Red Teaming, LLM Security, MCP Security, DevSecOps, API Security, AWS Security, Azure Security, Burp Suite, OWASP">
+
+    <meta name="author"
+          content="Juan Jimenez">
+
+
+    <!-- =====================================================
+         TITLE
+         ===================================================== -->
+
+    <title>
+        Juan Jimenez | Application Security & AI Security
+    </title>
+
+
+    <!-- =====================================================
+         STYLES
+         ===================================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+
+    <!-- =====================================================
+         ICONS / PWA
+         ===================================================== -->
+
+    <link rel="icon"
+          type="image/png"
+          href="assets/img/devops.png">
+
+    <link rel="apple-touch-icon"
+          href="assets/img/devops.png">
+
+    <meta name="theme-color"
+          content="#03080d">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+
+    <link rel="manifest"
+          href="manifest.json">
+
 </head>
 
-<body id="index-body" style="overflow: scroll;">
-    <div>
-        <nav class="nav-desk">
-            <center>
-                <div class="nav-logo">
-                    <a href="index.html"><img id="logo" src="assets/img/linux_logo.png"></a>
+
+<body id="index-body">
+
+
+    <!-- =====================================================
+         NAVIGATION
+         ===================================================== -->
+
+    <nav class="nav-desk">
+
+        <div class="nav-logo">
+
+            <a href="index.html">
+
+                <img id="logo"
+                     src="assets/img/linux_logo.png"
+                     alt="Juan Jimenez Security Portfolio">
+
+            </a>
+
+        </div>
+
+
+        <div class="nav-items">
+
+            <ul>
+
+                <li>
+                    <span>
+                        <a href="index.html"
+                           class="active-nav">
+                            About
+                        </a>
+                    </span>
+                </li>
+
+                <li>
+                    <span>
+                        <a href="work.html">
+                            Security Labs
+                        </a>
+                    </span>
+                </li>
+
+                <li>
+                    <span>
+                        <a href="certs.html">
+                            Certs
+                        </a>
+                    </span>
+                </li>
+
+                <li>
+                    <span>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </span>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================================
+         SECURITY HOMEPAGE
+         ===================================================== -->
+
+    <main class="security-home">
+
+
+        <section class="security-hero">
+
+
+            <!-- =================================================
+                 LEFT SIDE
+                 ================================================= -->
+
+            <div class="security-hero-left animated fadeInLeft">
+
+
+                <!-- TERMINAL INTRO -->
+
+                <div class="terminal-label">
+                    <span class="terminal-prompt">&gt;</span>
+                    whoami
                 </div>
-                <div class="nav-items">
-                    <ul>
-                        <li><span><a href="index.html" >About</a></span></li>
-                        <li><span><a href="work.html">Work</a></span></li>
-                        <li><span><a href="certs.html" >Certs</a></span></li>
-                        <li><span><a href="contact.html">Contact</a></span></li>
-                    </ul>
+
+
+                <!-- NAME -->
+
+                <h1 class="security-title">
+
+                    I'm Juan<span class="terminal-cursor">_</span>
+
+                </h1>
+
+
+                <!-- ROLE -->
+
+                <div class="security-role">
+
+                    <span>APPLICATION SECURITY</span>
+
+                    <span class="role-divider">|</span>
+
+                    <span>AI SECURITY</span>
+
+                    <span class="role-divider">|</span>
+
+                    <span>DEVSECOPS</span>
+
                 </div>
 
-            </center>
-        </nav>
 
-        
+                <!-- INTRO -->
 
-        
-       
-        <div class="animated fadeIn row" style="width:100vw;animation-duration: 1.5s;">
+                <p class="security-intro">
 
-            
-           
-            <div class="col-md-6" id="left-hero">
+                    I'm a Security Engineer focused on
 
-                
-                
-                <h1 class="hero-tag"><span class="typer" id="main" data-words="Hi, I'm Juan" data-delay="100"
-                        data-deleteDelay="1000" data-loop="1" style="color:blue!important;"></span>
-                    &nbsp;</h1>
+                    <strong>
+                        securing and breaking modern applications,
+                        APIs, cloud environments, CI/CD pipelines,
+                        and AI-powered systems.
+                    </strong>
 
-                <p class="hero-des"> DevOps | SRE | Application Security
-
-                    <br> <br>
-
-                    I have a proven track record in delivering complex projects on AWS, Azure, Azure DevOps, Jenkins, Windows, Linux (RedHat, Ubuntu, Centos). My skills include Powershell, Python, CI/CD pipelines, Terraform, Git, GitHub, Docker, and Kubernetes, with a focus on implementing DevOps/DevSecOps security best practices (SAST, DAST, SCA, IAST) on Azure and AWS using Veracode, SonarQube, and Snyk. I ensure compliance with cloud security frameworks and regulations such as SOC 2, PCI DSS, GDPR, and HIPAA.
-                    <br> <br>
-                    In AWS, I excel at configuring and managing security services like IAM, VPC, S3, CloudTrail, and CloudWatch. I conduct security assessments, identify vulnerabilities, and implement effective remediation plans for secure deployment and management of cloud resources. 
-                    <br> <br>
-                    Within Azure, I work with security‐related services including Azure Active Directory, Security Center, Key Vault, and Azure Firewall. I have a strong proficiency in implementing security controls to protect Azure resources and designing secure architectures for Azure‐based solutions.                                
                 </p>
-                <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-                <div id="contact-social" class="social-icons" style="display: inline;">
-          
-                    <a target="_blank" href="mailto:devsecjuan@gmail.com"><i class="fas fa-envelope"></i></a>
-                    <a target="_blank" href="https://github.com/devsecjuan"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://linkedin.com/in/jjc4"><i class="fab fa-linkedin"></i></a>
-                    
+
+
+                <!-- BACKGROUND -->
+
+                <p>
+
+                    My background spans
+
+                    <strong>
+                        Application Security, DevSecOps,
+                        Cloud Security, API Security,
+                        and offensive security.
+                    </strong>
+
+                    I work across the software development lifecycle
+                    to identify vulnerabilities, validate security controls,
+                    automate security testing, and help engineering teams
+                    remediate findings before they reach production.
+
+                </p>
+
+
+                <!-- APPSEC -->
+
+                <p>
+
+                    My application security work includes
+
+                    <strong>
+                        Burp Suite Professional, OWASP ZAP,
+                        Veracode, DAST, SAST, API security testing,
+                        vulnerability assessments,
+                        and secure CI/CD practices.
+                    </strong>
+
+                    I also work with cloud and infrastructure
+                    technologies including
+
+                    <strong>
+                        AWS, Azure, Terraform, Docker,
+                        Linux, Python, and PowerShell.
+                    </strong>
+
+                </p>
+
+
+                <!-- AI SECURITY -->
+
+                <p>
+
+                    I'm currently expanding my offensive security
+                    research into
+
+                    <strong>
+                        AI Security and AI Red Teaming
+                    </strong>,
+
+                    with a focus on attacking and securing
+
+                    <strong>
+                        LLM applications, AI agents,
+                        and Model Context Protocol (MCP) systems.
+                    </strong>
+
+                    My research labs explore vulnerabilities including
+
+                    <strong>
+                        prompt injection, insecure tool use,
+                        excessive agency, path traversal,
+                        SSRF, command injection,
+                        and unsafe tool chaining.
+                    </strong>
+
+                </p>
+
+
+                <!-- =================================================
+                     BUTTONS
+                     ================================================= -->
+
+                <div class="security-actions">
+
+                    <a href="work.html"
+                       class="security-btn security-btn-primary">
+
+                        <i class="fas fa-terminal"></i>
+
+                        View Security Labs
+
+                    </a>
+
+
+                    <a href="contact.html"
+                       class="security-btn security-btn-secondary">
+
+                        <i class="fas fa-envelope"></i>
+
+                        Contact Me
+
+                    </a>
+
                 </div>
-            
-              
+
+
+                <!-- =================================================
+                     SOCIAL
+                     ================================================= -->
+
+                <div class="security-social">
+
+                    <a href="mailto:juanjjf4@gmail.com"
+                       aria-label="Email Juan">
+
+                        <i class="fas fa-envelope"></i>
+
+                    </a>
+
+
+                    <a href="https://github.com/devsecjuan"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Juan's GitHub">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+
+                    <a href="https://linkedin.com/in/jjc4"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Juan's LinkedIn">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                </div>
+
             </div>
 
-            <div class="col-md-3" id="hero-right">
-                <img id="hero-img" src="assets/img/devops.png">
-                <img id="hero-img" src="assets/img/1_23G1ZrwrlYAqqkTswn59jg.png">
-                <img id="hero-img" src="assets/img/DevSecOps-Diagram.png">
-                
+
+            <!-- =================================================
+                 RIGHT SIDE
+                 ================================================= -->
+
+            <div class="security-hero-right animated fadeInRight">
+
+
+                <!-- =================================================
+                     TUX / PERSONAL BRANDING
+                     ================================================= -->
+
+                <div class="security-profile-card">
+
+
+                    <div class="profile-glow">
+
+                        <img src="assets/img/linux_logo.png"
+                             class="security-tux"
+                             alt="Linux Tux">
+
+                    </div>
+
+
+                    <div class="profile-copy">
+
+                        <span>
+                            BUILDING
+                        </span>
+
+                        <span>
+                            A SAFER
+                        </span>
+
+                        <strong>
+                            TOMORROW_
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     MAIN OFFENSIVE SECURITY IMAGE
+                     ================================================= -->
+
+                <div class="security-feature-image">
+
+                    <img src="assets/img/ai-security-offensive-security.png"
+                         alt="AI Security and Offensive Security">
+
+                    <div class="security-image-overlay">
+
+                        <span class="image-terminal">
+                            root@security:~#
+                        </span>
+
+                        <h3>
+                            BREAK.
+                            UNDERSTAND.
+                            SECURE.
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     SECURITY SPECIALIZATIONS
+                     ================================================= -->
+
+                <div class="security-domains">
+
+
+                    <!-- APPSEC -->
+
+                    <div class="security-domain">
+
+                        <i class="fas fa-shield-alt"></i>
+
+                        <span>
+                            Application
+                            <br>
+                            Security
+                        </span>
+
+                    </div>
+
+
+                    <!-- AI SECURITY -->
+
+                    <div class="security-domain">
+
+                        <i class="fas fa-brain"></i>
+
+                        <span>
+                            AI Security
+                            <br>
+                            & Red Teaming
+                        </span>
+
+                    </div>
+
+
+                    <!-- CLOUD -->
+
+                    <div class="security-domain">
+
+                        <i class="fas fa-cloud"></i>
+
+                        <span>
+                            Cloud
+                            <br>
+                            Security
+                        </span>
+
+                    </div>
+
+
+                    <!-- DEVSECOPS -->
+
+                    <div class="security-domain">
+
+                        <i class="fas fa-code-branch"></i>
+
+                        <span>
+                            DevSecOps
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     SECURITY PHILOSOPHY
+                     ================================================= -->
+
+                <div class="security-philosophy">
+
+                    <div>
+
+                        <span class="philosophy-number">
+                            01
+                        </span>
+
+                        <span>
+                            IDENTIFY
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="philosophy-number">
+                            02
+                        </span>
+
+                        <span>
+                            EXPLOIT
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="philosophy-number">
+                            03
+                        </span>
+
+                        <span>
+                            UNDERSTAND
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="philosophy-number">
+                            04
+                        </span>
+
+                        <span>
+                            SECURE
+                        </span>
+
+                    </div>
+
+                </div>
+
+
             </div>
 
-           
+
+        </section>
+
+
+        <!-- =====================================================
+             BOTTOM IDENTITY
+             ===================================================== -->
+
+        <div class="security-footer-line">
+
+            <span>
+                SECURITY ENGINEER
+            </span>
+
+            <span>
+                //
+            </span>
+
+            <span>
+                OFFENSIVE MINDSET
+            </span>
+
+            <span>
+                //
+            </span>
+
+            <span>
+                DEFENSIVE IMPACT
+            </span>
 
         </div>
-    </div>
-    
+
+
+    </main>
+
+
+    <!-- =====================================================
+         MOBILE NAVIGATION
+         ===================================================== -->
+
     <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
+
+
+        <input type="checkbox"
+               class="toggler"
+               aria-label="Toggle navigation">
+
+
         <div class="hamburger">
+
             <div></div>
+
         </div>
+
+
         <div class="menu">
-            
+
             <div>
+
                 <div>
-                    
+
                     <ul>
-                        
-                        <li><a href="index.html" style="text-decoration: line-through;">Home</a></li>
-                        <li><a href="work.html">Work</a></li>
-                        <li><a href="certs.html">Certs</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+
+                        <li>
+
+                            <a href="index.html"
+                               class="mobile-active">
+
+                                Home
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="work.html">
+
+                                Security Labs
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="certs.html">
+
+                                Certs
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="contact.html">
+
+                                Contact
+
+                            </a>
+
+                        </li>
+
                     </ul>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
-    <div class="legal">
-        
-    </div>
+
+
+    <!-- =====================================================
+         SERVICE WORKER
+         ===================================================== -->
+
+    <script src="assets/js/app.js"></script>
+
+
 </body>
 
 </html>

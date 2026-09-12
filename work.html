@@ -1,163 +1,865 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159411627-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <!-- Cache Control -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-159411627-1');
-    </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <meta name="Description"
-        content="Juan Jimenez | DevOps Engineer, https://juanj4.github.io/ | Azure | CI/CD | Terraform | AWS | Python | AZ-900" />
-    <title>Juan Jimenez | DevOps Engineer</title>
-    <link rel="icon" type="image/png" href="assets/img/devops.png">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+
+    <!-- SEO -->
+    <meta name="description"
+          content="Juan Jimenez Security Labs | Application Security, AI Security, AI Red Teaming, LLM Security, MCP Security, DevSecOps, API Security and Cloud Security.">
+
+    <meta name="keywords"
+          content="Juan Jimenez, Application Security, AI Security, AI Red Teaming, LLM Security, MCP Security, Prompt Injection, DevSecOps, API Security, Burp Suite, OWASP, AWS Security, Azure Security">
+
+    <meta name="author" content="Juan Jimenez">
+
+    <title>Security Labs | Juan Jimenez - Application & AI Security</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="icon"
+          type="image/png"
+          href="assets/img/devops.png">
+
+    <link rel="apple-touch-icon"
+          href="assets/img/devops.png">
+
+    <meta name="theme-color" content="#FFE1C4">
 </head>
 
-<body id="contact-body" style="overflow-x: hidden;">
+
+<body id="contact-body" style="overflow-x:hidden;">
+
     <div>
+
+        <!-- =====================================================
+             DESKTOP NAVIGATION
+             ===================================================== -->
+
         <nav class="nav-desk">
             <center>
+
                 <div class="nav-logo">
-                    <a href="index.html"><img id="logo" src="assets/img/linux_logo.png"></a>
+
+                    <a href="index.html">
+                        <img id="logo"
+                             src="assets/img/linux_logo.png"
+                             alt="Juan Jimenez Security Portfolio">
+                    </a>
+
                 </div>
+
                 <div class="nav-items">
+
                     <ul>
-                        <li><span><a href="index.html">About</a></span></li>
-                        <li><span><a href="work.html" style="text-decoration: line-through;">Work</a></span></li>
-                        <li><span><a href="certs.html">Certs</a></span></li>
-                        <li><span><a href="contact.html">Contact</a></span></li>
+
+                        <li>
+                            <span>
+                                <a href="index.html">About</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="work.html"
+                                   style="text-decoration:line-through;">
+                                    Security Labs
+                                </a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="certs.html">Certs</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="contact.html">Contact</a>
+                            </span>
+                        </li>
+
                     </ul>
+
                 </div>
 
             </center>
-
-
-            
         </nav>
-        <div class=" fadeIn row" style="width:100vw;height:auto;animation-duration: 1.5s;">
+
+
+        <!-- =====================================================
+             PAGE INTRODUCTION
+             ===================================================== -->
+
+        <div class="fadeIn row"
+             style="width:100%;height:auto;animation-duration:1.5s;">
+
             <div class="col-md-12" id="left-hero">
-                <h1 class="hero-tag contact-hero  fadeInLeft">My Work.</h1>
-                <p class="hero-des contact-des  fadeIn delay-1s"> 
-                    In addition to my work experience I build hands on real world DevOps Projects. This is one way I stay up to date with current technologies in the industry.
-                    <br> <br>
-                    (You can click on the images and it takes you to the project repo)
+
+                <h1 class="hero-tag contact-hero fadeInLeft">
+                    Security Labs.
+                </h1>
+
+                <p class="hero-des contact-des fadeIn delay-1s">
+
+                    I build hands-on security labs and engineering projects
+                    to explore how modern applications, cloud environments,
+                    APIs, CI/CD pipelines, and AI systems can be attacked
+                    and secured.
+
+                    <br><br>
+
+                    My current research focuses on
+                    <strong>
+                        Application Security, AI Security, LLM Security,
+                        Model Context Protocol (MCP), AI Red Teaming,
+                        API Security, and DevSecOps.
+                    </strong>
+
+                    <br><br>
+
+                    These projects document both offensive techniques
+                    and defensive engineering approaches.
+
                 </p>
-                
+
                 <br>
-                <!-- <div class="feedback"><a href="https://d474b570.nolt.io/">Have any feedback or suggestion?</a></div> -->
+
             </div>
+
         </div>
-        <!--Content-->
+
+
+        <!-- =====================================================
+             AI SECURITY
+             ===================================================== -->
+
         <div class="animated bounceInUp delay-1s">
+
+            <div class="row work-double-row">
+
+                <div class="col-md-12">
+
+                    <h1 style="font-weight:bold;">
+                        AI Security & Red Teaming
+                    </h1>
+
+                    <p>
+                        Hands-on research into attacking and securing
+                        LLM applications, AI agents, and MCP-enabled systems.
+                    </p>
+
+                    <br>
+
+                </div>
+
+            </div>
+
+
+            <!-- Prompt Injection + MCP -->
+
             <div class="row" id="work-row">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-2s">
-                    <center>
-                        <div class="work-hero-card">
-                            <!-- <img class="work-hero-img" src="assets/img/url-shortener-assesment.png"> -->
-                            <a href="https://github.com/JuanJ4/URL-Shortner-AWS-Terraform/" target="_blank">  <img class="work-hero-img" src="assets/img/urlshortener-aws.png"> </a> 
-                            <h1>Url Shortener [Terraform AWS]</h1>
-                            <div id="work-text">Serverless</div>
+
+
+                <!-- LLM Prompt Injection -->
+
+                <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/about-page-image.png"
+                                 alt="LLM Prompt Injection Security Lab">
+
+                        </a>
+
+                        <h1>
+                            LLM Prompt Injection Lab
+                        </h1>
+
+                        <div id="work-text">
+
+                            Offensive testing of LLM applications
+                            vulnerable to direct and indirect prompt injection.
+
+                            <br><br>
+
+                            <strong>
+                                Prompt Injection • LLM Security • AI Red Teaming
+                            </strong>
+
                         </div>
-                    </center>
+
+                    </div>
+
                 </div>
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-2s">
-                    <center>
-                        <div class="work-hero-card">
-                            <a href="https://github.com/JuanJ4/AWS-Automation" target="_blank">  <img class="work-card-hero-img" src="assets/img/cloudwatch-pagerduty.png"> </a> 
-                            <h1>AWS Python Cloudwatch Alarm + PagerDuty</h1>
-                            <div id="work-text"> AWS Cloudwatch Alarm + PagerDuty</div>
-                            
+
+
+                <!-- MCP Security -->
+
+                <div class="col-md-6 col-sm-12 bounceInRight delay-2s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/DevSecOps-Diagram.png"
+                                 alt="MCP Security Research Lab">
+
+                        </a>
+
+                        <h1>
+                            MCP Security Lab
+                        </h1>
+
+                        <div id="work-text">
+
+                            Vulnerable Model Context Protocol environment
+                            built to research attacks against AI tools,
+                            resources, and agent workflows.
+
+                            <br><br>
+
+                            <strong>
+                                MCP • AI Agents • Offensive Security
+                            </strong>
+
                         </div>
-                    </center>
-                </div>
-            </div> 
 
-
-        
-            <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-                        <a href="https://github.com/JuanJ4/Backend-SQL-DevOps-Python" target="_blank">   <img class="work-card-hero-img" src="assets/img/Modern Software Engineering with DevOps 3:3.jpeg"> </a>
-                        <h1>Modern Software Engineering with DevOps 3/3</h1>
-                        <div id="work-text">DevOps </div>                        
                     </div>
 
                 </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
 
-                        <a href="https://github.com/JuanJ4/Terraform-on-Azure-Cloud-Architecture-DevOps" target="_blank">   <img class="work-card-hero-img" src="assets/img/alz-tf-module-overview.png"> </a>
-                        <h1>Terraform Infrastructure + Azure Architecture
-                            t​</h1>
-                        <div id="work-text">Terraform + Azure</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-
-                        <a href="https://github.com/devsecjuan" target="_blank">   <img class="work-card-hero-img" src="assets/img/about-page-image.png"> </a>
-                        <h1>devsecjuan.github.io</h1>
-                        <div id="work-text">PORTFOLIO</div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-
-                        <a href="https://github.com/JuanJ4/DevSecOps-In-GithubActions/" target="_blank">        <img class="work-card-hero-img" src="assets/img/SAST:DAST.png">  </a>
-                        <h1>SCA SAST DAST with SonarQube, Snyk, Owasp ZAP </h1>
-                        <div id="work-text">DevSecOps</div>
-                    </div>
-                </div>
             </div>
 
+
+            <!-- MCP exploitation -->
+
+            <div class="row work-double-row">
+
+
+                <!-- MCP File Access -->
+
+                <div class="col-md-6 col-sm-12 bounceInLeft delay-3s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/about-page-image.png"
+                                 alt="MCP File Access Security Lab">
+
+                        </a>
+
+                        <h1>
+                            MCP File Access & Path Traversal
+                        </h1>
+
+                        <div id="work-text">
+
+                            Security lab demonstrating how improperly
+                            constrained MCP file tools can expose sensitive
+                            files through path traversal and unsafe resource access.
+
+                            <br><br>
+
+                            <strong>
+                                Path Traversal • File Access • MCP Security
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MCP SSRF -->
+
+                <div class="col-md-6 col-sm-12 bounceInRight delay-3s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/DevSecOps-Diagram.png"
+                                 alt="MCP SSRF Security Lab">
+
+                        </a>
+
+                        <h1>
+                            MCP URL Fetcher & SSRF
+                        </h1>
+
+                        <div id="work-text">
+
+                            Vulnerable AI tool demonstrating how URL-fetching
+                            capabilities can introduce Server-Side Request
+                            Forgery attack paths.
+
+                            <br><br>
+
+                            <strong>
+                                SSRF • MCP • AI Tool Security
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Unsafe tool chaining -->
+
+            <div class="row work-double-row">
+
+
+                <div class="col-md-6 col-sm-12 bounceInLeft delay-3s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/about-page-image.png"
+                                 alt="Unsafe AI Tool Chaining Lab">
+
+                        </a>
+
+                        <h1>
+                            Unsafe AI Tool Chaining
+                        </h1>
+
+                        <div id="work-text">
+
+                            Research into how individually legitimate AI
+                            tools can become dangerous when an agent chains
+                            capabilities without sufficient authorization
+                            or validation.
+
+                            <br><br>
+
+                            <strong>
+                                Excessive Agency • Tool Abuse • AI Agents
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 col-sm-12 bounceInRight delay-3s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/DevSecOps-Diagram.png"
+                                 alt="AI Security Hardening Lab">
+
+                        </a>
+
+                        <h1>
+                            MCP & AI Agent Hardening
+                        </h1>
+
+                        <div id="work-text">
+
+                            Defensive implementation of validation,
+                            authorization, least privilege, tool restrictions,
+                            and security controls for MCP-enabled AI systems.
+
+                            <br><br>
+
+                            <strong>
+                                Secure Design • Least Privilege • AI Security
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 APPLICATION SECURITY / DEVSECOPS
+                 ================================================= -->
+
+            <div class="row work-double-row">
+
+                <div class="col-md-12">
+
+                    <h1 style="font-weight:bold;">
+                        Application Security & DevSecOps
+                    </h1>
+
+                    <p>
+                        Security engineering projects focused on
+                        integrating security testing into modern
+                        software development workflows.
+                    </p>
+
+                    <br>
+
+                </div>
+
+            </div>
+
+
+            <div class="row" id="work-row">
+
+
+                <!-- SAST / DAST / SCA -->
+
+                <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/JuanJ4/DevSecOps-In-GithubActions/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/SAST:DAST.png"
+                                 alt="DevSecOps SAST DAST SCA Security Pipeline">
+
+                        </a>
+
+                        <h1>
+                            DevSecOps Security Pipeline
+                        </h1>
+
+                        <div id="work-text">
+
+                            Integration of security testing into
+                            GitHub Actions using SAST, DAST, and
+                            Software Composition Analysis.
+
+                            <br><br>
+
+                            <strong>
+                                SonarQube • Snyk • OWASP ZAP • GitHub Actions
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Portfolio -->
+
+                <div class="col-md-6 col-sm-12 bounceInRight delay-2s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/devsecjuan"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/about-page-image.png"
+                                 alt="Security Engineering Portfolio">
+
+                        </a>
+
+                        <h1>
+                            Security Engineering Portfolio
+                        </h1>
+
+                        <div id="work-text">
+
+                            Personal security engineering portfolio
+                            documenting cloud, DevSecOps, application
+                            security, and AI security research.
+
+                            <br><br>
+
+                            <strong>
+                                AppSec • DevSecOps • AI Security
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 CLOUD / DEVOPS
+                 ================================================= -->
+
+            <div class="row work-double-row">
+
+                <div class="col-md-12">
+
+                    <h1 style="font-weight:bold;">
+                        Cloud & Infrastructure Engineering
+                    </h1>
+
+                    <p>
+                        Earlier engineering projects demonstrating the
+                        cloud and automation foundation behind my
+                        security engineering work.
+                    </p>
+
+                    <br>
+
+                </div>
+
+            </div>
+
+
+            <!-- AWS -->
+
+            <div class="row" id="work-row">
+
+
+                <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/JuanJ4/URL-Shortner-AWS-Terraform/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-hero-img"
+                                 src="assets/img/urlshortener-aws.png"
+                                 alt="AWS Terraform Serverless URL Shortener">
+
+                        </a>
+
+                        <h1>
+                            Serverless AWS Infrastructure
+                        </h1>
+
+                        <div id="work-text">
+
+                            Serverless URL shortener deployed using
+                            Infrastructure as Code.
+
+                            <br><br>
+
+                            <strong>
+                                AWS • Terraform • Serverless
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 col-sm-12 bounceInRight delay-2s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/JuanJ4/AWS-Automation"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/cloudwatch-pagerduty.png"
+                                 alt="AWS CloudWatch PagerDuty Automation">
+
+                        </a>
+
+                        <h1>
+                            AWS Monitoring Automation
+                        </h1>
+
+                        <div id="work-text">
+
+                            Python automation integrating AWS CloudWatch
+                            alarms with PagerDuty.
+
+                            <br><br>
+
+                            <strong>
+                                AWS • Python • CloudWatch • PagerDuty
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Azure / DevOps -->
+
+            <div class="row work-double-row">
+
+
+                <div class="col-md-6 col-sm-12 bounceInLeft delay-3s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/JuanJ4/Terraform-on-Azure-Cloud-Architecture-DevOps"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/alz-tf-module-overview.png"
+                                 alt="Terraform Azure Cloud Architecture">
+
+                        </a>
+
+                        <h1>
+                            Terraform & Azure Architecture
+                        </h1>
+
+                        <div id="work-text">
+
+                            Azure infrastructure architecture
+                            implemented through Terraform.
+
+                            <br><br>
+
+                            <strong>
+                                Azure • Terraform • Infrastructure as Code
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 col-sm-12 bounceInRight delay-3s">
+
+                    <div class="work-hero-card">
+
+                        <a href="https://github.com/JuanJ4/Backend-SQL-DevOps-Python"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img class="work-card-hero-img"
+                                 src="assets/img/Modern Software Engineering with DevOps 3:3.jpeg"
+                                 alt="Modern Software Engineering DevOps Project">
+
+                        </a>
+
+                        <h1>
+                            Modern Software Engineering with DevOps
+                        </h1>
+
+                        <div id="work-text">
+
+                            Software engineering project demonstrating
+                            backend development and modern DevOps workflows.
+
+                            <br><br>
+
+                            <strong>
+                                Python • SQL • DevOps
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 GITHUB CTA
+                 ================================================= -->
+
+            <div class="row work-double-row">
+
+                <div class="col-md-12">
+
+                    <div class="work-hero-card"
+                         style="text-align:center;padding:40px;">
+
+                        <h1 style="font-size:1.5rem;">
+                            More Security Research Coming
+                        </h1>
+
+                        <div id="work-text">
+
+                            I'm continuously building new labs around
+                            application security, AI systems, LLMs,
+                            MCP, APIs, and offensive security.
+
+                            <br><br>
+
+                            <a href="https://github.com/devsecjuan"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="btn btn-primary">
+
+                                <i class="fab fa-github"></i>
+                                View GitHub
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 FOOTER
+                 ================================================= -->
+
+            <div class="footer-full fadeIn delay-2s">
+
+                <div id="contact-social"
+                     class="social-icons"
+                     style="display:inline;">
+
+                    <a href="mailto:juanjjf4@gmail.com"
+                       aria-label="Email Juan">
+
+                        <i class="fas fa-envelope"></i>
+
+                    </a>
+
+                    <a target="_blank"
+                       rel="noopener noreferrer"
+                       href="https://github.com/devsecjuan"
+                       aria-label="Juan's GitHub">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a target="_blank"
+                       rel="noopener noreferrer"
+                       href="https://linkedin.com/in/jjc4"
+                       aria-label="Juan's LinkedIn">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
 
         </div>
-            <div class="footer-full  fadeIn delay-2s">
-                <div id="contact-social" class="social-icons" style="display: inline;">
-                    <a target="_blank" href="mailto:devsecjuan@gmail.com"><i class="fas fa-envelope"></i></a>
-                    <a target="_blank" href="https://github.com/devsecjuan"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://linkedin.com/in/jjc4"><i class="fab fa-linkedin"></i></a>
-                </div>
-               
-            </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         MOBILE MENU
+         ========================================================= -->
+
+    <div class="menu-wrap">
+
+        <input type="checkbox"
+               class="toggler"
+               aria-label="Toggle navigation">
+
+        <div class="hamburger">
+            <div></div>
         </div>
-        <div class="menu-wrap">
-            <input type="checkbox" class="toggler">
-            <div class="hamburger">
-                <div></div>
-            </div>
-            <div class="menu">
+
+        <div class="menu">
+
+            <div>
                 <div>
-                    <div>
-                        <ul>
-                            <li><a href="index.html" >Home</a></li>
-                            <li><a href="work.html" style="text-decoration: line-through;">Work</a></li>
-                            <li><a href="certs.html">Certs</a></li>
-                            <li><a href="contact.html">Contact</a></li>
 
-                        </ul>
-                    </div>
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="work.html"
+                               style="text-decoration:line-through;">
+                                Security Labs
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="certs.html">
+                                Certs
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
                 </div>
             </div>
+
         </div>
+
+    </div>
+
 </body>
 
 </html>
